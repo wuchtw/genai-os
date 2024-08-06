@@ -51,10 +51,18 @@
 
 [![screenshot](./src/multi-chat/public/images/architecture.svg)](https://kuwaai.org/os/Intro)
 
-## 依賴套件
+## 快速安裝
+### Linux (with Docker)
+```
+curl -fsSL https://github.com/kuwaai/genai-os/tree/main/docker/build.sh | sh
+```
+### Windows
+下載最新版本GenAI OS的[Windows版單一執行檔](https://github.com/kuwaai/genai-os/releases)
 
-為了執行此應用，請確保您的系統上安裝了以下套件：
+## 安裝指南 (針對進階用戶從頭開始安裝)
+如果你想嘗鮮試著快速跑起來玩玩，我們有提供[Windows可攜式版本](./windows/README_TW.md)與[Docker版本](./docker/README_TW.md)，分別在Windows 10 x64 與 Ubuntu 22.04LTS 環境測試過，可以試試看！
 
+或者你可以參考以下步驟來將整套系統安裝在主機上，在繼續之前，請確保您已經安裝了下列所有依賴套件：
 - Node.js v20.11.1 & npm
 - PHP 8.1 & php-fpm & Composer
 - Python 3.10 & pip
@@ -65,10 +73,6 @@
 
 請按照以下步驟在 Windows 和 Linux 上設置和執行：
 
-## 安裝指南
-如果你想嘗鮮試著快速跑起來玩玩，我們有提供[Windows可攜式版本](./windows/README_TW.md)與[Docker版本](./docker/README_TW.md)，分別在Windows 10 x64 與 Ubuntu 22.04LTS 環境測試過，可以試試看！
-
-或者你可以參考以下步驟來將整套系統安裝在主機上，在繼續之前，請確保您已經安裝了上述所有依賴套件。
 1. **複製專案:**
    ```sh
    git clone https://github.com/kuwaai/genai-os.git
