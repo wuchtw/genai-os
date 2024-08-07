@@ -52,14 +52,15 @@
 [![screenshot](./src/multi-chat/public/images/architecture.svg)](https://kuwaai.tw/os/Intro)
 
 ## 快速安裝
-### Linux (with Docker)
+### Linux
+可利用 [build.sh](https://github.com/kuwaai/genai-os/tree/main/docker/build.sh) 自動下載及安裝Docker、CUDA及Kuwa
 ```
 curl -fsSL https://github.com/kuwaai/genai-os/tree/main/docker/build.sh | sh
 ```
 ### Windows
-下載最新版本GenAI OS的[Windows版單一執行檔](https://github.com/kuwaai/genai-os/releases)
+可到 [GenAI OS Releases](https://github.com/kuwaai/genai-os/releases) 下載最新版本的 **Windows版單一執行檔** 並直接執行
 
-## 安裝指南 (針對進階用戶從頭開始安裝)
+## 安裝指南 (針對進階用戶)
 如果你想嘗鮮試著快速跑起來玩玩，我們有提供[Windows可攜式版本](./windows/README_TW.md)與[Docker版本](./docker/README_TW.md)，分別在Windows 10 x64 與 Ubuntu 22.04LTS 環境測試過，可以試試看！
 
 或者你可以參考以下步驟來將整套系統安裝在主機上，在繼續之前，請確保您已經安裝了下列所有依賴套件：
