@@ -53,7 +53,7 @@
 * **Windows**
 下載最新版本GenAI OS的[Windows版單一執行檔](https://github.com/kuwaai/genai-os/releases)
 * **Linux/Docker**
-可利用 [build.sh](./docker/build.sh) 或在Linux下執行以下指令即可自動下載及安裝Docker、CUDA及Kuwa
+可利用 sudo [build.sh](./docker/build.sh) 或在Linux下執行以下指令即可自動下載及安裝Docker、CUDA及Kuwa
   ```
   curl -fsSL https://github.com/kuwaai/genai-os/tree/main/docker/build.sh | sh
   ```
