@@ -56,7 +56,7 @@ Download the script or the executable file, run it, and follow its steps to have
 
 * **Linux/Docker**
 
-  Download and run [build.sh](./docker/build.sh) , or invoke the following command to automatically install Docker, Cuda, and Kuwa
+  Download and run sudo [build.sh](./docker/build.sh) , or invoke the following command to automatically install Docker, Cuda, and Kuwa
   ```
   curl -fsSL https://github.com/kuwaai/genai-os/tree/main/docker/build.sh | sh
   ```
